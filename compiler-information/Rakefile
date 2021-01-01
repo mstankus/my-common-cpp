@@ -1,0 +1,4 @@
+task :default do
+ sh "c++ -std=c++2a *cc *cpp"
+ sh "./a.out"
+end
